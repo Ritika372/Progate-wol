@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+header{
+    background-color : #e1e6ed;
+    box-shadow: inset 1px 20px 9px -6px #b5bec2e3;
+    height: 120px;
+}
+ul{
+    list-style-type: none;
+}
+.nav{
+    margin-left:150px;
+    padding: 30px;
+}
+.nav li, a{
+    padding-top:20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.navbar-left li{
+    float: left;
+    padding-right: 100px;
+   
+}
+.navbar-right li{
+    float:right;
+    padding-right: 30px;
+}
+.navbar-left a:hover{
+    padding: 10px;
+    border: 2px solid black;
+    margin:-13px;
+    transition-duration: 0.7s;
+}
+.navbar-right a:hover{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: rgb(129, 143, 146);
+    padding:10px;
+    margin:-5px;
+    transition-duration: 0.7s;
+}
+.top-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Nit_jalandhar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    text-align: center;
+    color: #e1e6ed;
+    background-attachment:fixed ;
+}
+.head{
+    padding-top:300px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.head h2{
+    padding-bottom: 20px;
+    font-size:45px;
+}
+.head h1{
+    font-size:55px;
+}
+.fa{
+    padding: 10px;
+    font-size: 35px;
+    width: 20px;
+    border-radius: 100%;
+    background-color:white ;
+    text-align: center;
+    color: #b5bbc4 ;
+}
+.logo ul{
+    position: fixed;
+    top:250px;
+    left: 30px;
+}
+.logo li{
+    padding-bottom: 10px;
+}
+.about-section{
+    display:flex;
+    margin: 0;
+    background-color :#e1e6ed;
+}
+.about-section img{
+    width: 600px;
+    height: 600px;
+    float:left;
+    background-color: rgb(129, 143, 146);
+}
+.about{
+    float:right;
+    padding-left: 35px;
+    padding-top: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-right: 0px;
+    margin-left: 100px;
+}
+.about h3{
+    display: block;
+    width: 60px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #313030;
+}
+.about p{
+    display:block;
+    width: 400px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.middle1{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/photo-1475275166152-f1e8005f9854.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    text-align: center;
+    color: #e1e6ed;
+    background-attachment:fixed ;
+    align-items: center;
+}
+.middle1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 50px;
+
+}
+.middle1 p{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    margin-top: 70px;
+    color : #e1e6ed;
+}
+footer{
+    background-color: rgb(37, 36, 36);
+    height: 200px;
+    color:#fff;
+    text-align:center;
+    font-family: sans-serif;
+    padding:60px;
+    font-size: 14px;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+    letter-spacing: 2px;;
+}
+footer p{
+    color: #b5bbc4;
+    margin-top:100px;
+}
+.contact{
+    display:flex;
+    margin: 0;
+    background-color :#e1e6ed;
+}
+.contact img{
+    width: 50%;
+    height: 600px;
+    float:right;
+}
+.lets-talk{
+    float:left;
+    padding-left: 90px;
+    padding-top: 70px;
+    width:50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.lets-talk h3{
+    letter-spacing: 2px;
+    display: block;
+    width: 140px;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #313030;
+}
+.lets-talk p{
+    margin-top: 15px;
+}
+input , textarea{
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #909496;
+  }
+  .contact-submit{
+    background-color: rgb(129, 143, 146);
+    color : white;
+  }
+  .toggle-btn{
+      width:80px;
+      height:40px;
+      margin-left: 500px;
+      margin-top:20px;
+      margin-bottom:20px;
+      background :gray;
+      border-radius: 30px;
+      padding: 5px;
+      transition : all 300ms ease-in-out;
+  }
+  .inner-circle{
+      height:40px;
+      width:40px;
+      background: #fff;
+      border-radius: 50%;
+    }
+    .toggle-btn.active{
+        background: #e1e6ed;
+    }
+    .toggle-btn.active > .inner-circle{
+        margin-left:40px;
+    }
+    .text-display {
+        color: #e1e6ed;
+        text-decoration:none;
+        font-size: 30px;
+    }
+    .middle2{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: rgb(0, 0, 0);
+    }
+    #clock h2{
+        position: relative;
+        display: block;
+        color:#e1e6ed;
+        text-align: center;
+        margin: 10px 0;
+        font-weight: 700;
+        letter-spacing: 0.4em;
+        font-size: 20px;
+    }
+    #clock #time{
+        display :flex
+    }
+    #clock #time div{
+        position: relative;
+        margin: 0 5px;
+        -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    }
+    #clock #time div span{
+        position: relative;
+        display: block;
+        width: 200px;
+        height: 100px;
+        background: #2196f3;
+        color: #e1e6ed;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        font-size: 3em;
+        z-index: 10;
+        box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+    }
+    #clock #time div span :nth-child(2){
+        height: 30px;
+        font-size: 0.7em;
+        letter-spacing: 0.2em;
+        font-weight: 500;
+        z-index: 9;
+        box-shadow: none;
+        background: #127fd6;
+        text-transform: uppercase;
+    }
+    #clock #time div:last-child span{
+        background: #ff006a;
+    }
+    #clock #time div:last-child span:nth-child(2){
+        background: #ec0062;
+    }
