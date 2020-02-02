@@ -120,7 +120,7 @@ ul{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/photo-1475275166152-f1e8005f9854.jfif);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 700px;
     background-position: center;
     text-align: center;
     color: #e1e6ed;
@@ -202,7 +202,7 @@ input , textarea{
   .toggle-btn{
       width:80px;
       height:40px;
-      margin-left: 500px;
+      margin-left: 570px;
       margin-top:20px;
       margin-bottom:20px;
       background :gray;
